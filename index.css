@@ -19,3 +19,64 @@ font: inherit;
 vertical-align: baseline;  
 }
 
+/*      border: 1px solid grey;       */
+
+
+body{
+    width: 100%;
+    font-size: 100%;
+    height: 100%;
+    border: 1px solid grey;  
+    box-sizing: border-box;
+}
+
+.headerPic{
+    
+    width: 50%;
+    height: 50%;
+    
+}
+
+
+.footerPic{
+    
+   
+}
+
+.navContainer{
+    
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.adContainer{
+    
+    display:flex;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.contentContainer{
+    border: 1px solid grey;
+}
+
+.history{
+    border: 1px solid grey;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.fire{
+    border: 1px solid grey;
+    margin: 0 auto;
+    width: 30%;
+}
+
+.reservation{
+    border: 1px solid grey;
+    margin: 0 auto;
+    width: 30%;
+}
+
+
