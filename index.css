@@ -28,14 +28,9 @@ body{
     height: 100%;
     border: 1px solid grey;  
     box-sizing: border-box;
+    letter-spacing: 3px;
 }
 
-.headerPic{
-    
-    width: 50%;
-    height: 50%;
-    
-}
 
 
 .footerPic{
@@ -43,40 +38,111 @@ body{
    
 }
 
-.navContainer{
-    
-    margin: 0 auto;
-    width: 70%;
-    text-align: center;
+h1{
+    font-family: fantasy;
+    font-size: 200%;
 }
 
+.navContainer{
+     
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5%;
+}
+
+.navContainer a{
+    text-decoration: none;
+    color: white;
+    
+    margin: 8%;
+    padding: 2%;
+    border-radius: 10px;
+    
+    
+}
+
+.navContainer a:visited{
+    text-color: white;
+}
+
+.navContainer .plan{
+    background: #FF7F50;
+}
+
+.navContainer .learn{
+    background: #00BFFF
+}
+
+.navContainer .involved{
+    background: #BDB76B
+}
+
+.headerPic{
+    width: 300px;
+    height:300px;
+    border-radius: 150px;
+    
+   
+}
+
+.test{
+    
+    margin-left: 12%;
+}
 .adContainer{
     
-    display:flex;
-    margin: 0 auto;
-    width: 80%;
+    display:inline-block;
+    width:10%
+    
+    margin-left: 5%;
+    
+}
+.guide{
+    
+    position: relative;
+    bottom: 130px;
+    display:inline-block;
+    
+    margin-left: 8%
+    
 }
 
 .contentContainer{
-    border: 1px solid grey;
+    
 }
 
 .history{
-    border: 1px solid grey;
+    
     margin: 0 auto;
     width: 90%;
+    height: 100px;
+    color: white;
+    margin-top:30px;
+    background: #808000
 }
 
+.fireicon{
+   text-align: center;
+}
+
+.reservationIcon{
+    text-align: center;
+ }
+
 .fire{
-    border: 1px solid grey;
+   
     margin: 0 auto;
     width: 30%;
+    margin-top:30px;
 }
 
 .reservation{
-    border: 1px solid grey;
+    
     margin: 0 auto;
     width: 30%;
+    margin-top:30px;
 }
 
 
