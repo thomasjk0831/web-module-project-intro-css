@@ -146,7 +146,8 @@ h1{
 }
 
 .footImage{
-    background: url("assets/footer_img.jpg");
+    background: url("assets/footer_img.jpg") no-repeat;
+    background-size: cover;
     height: 80vh;
     margin-top: 30px;
     
